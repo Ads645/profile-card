@@ -3,9 +3,10 @@ body {
 	padding: 0;
 	box-sizing: border-box;
 	font-size: 18px;
+	color: hsl(0, 0%, 8%);
 	font-family: 'Kumbh Sans', sans-serif;
 	background-color: hsl(185, 75%, 39%);
-
+	
 }
 
 .center {
@@ -15,7 +16,6 @@ body {
 	position: fixed;
 	top: 50%;
 	left: 50%;
-	/* bring your own prefixes */
 	transform: translate(-50%, -50%);
 	border-radius: 25px;
   }
@@ -53,4 +53,25 @@ body {
 }
 .card {
 	flex: 1;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.screen{
+	position: relative;
+	width: auto;
+	height: auto;
+}
+#bckgrndimg {
+	position: relative;
+	top: 0%;
+	left: 0;
+	z-index: -1;
+	
+	}
+#bckgrndimg2 {
+	position: absolute;
+	right: 0;
+	bottom: 0%;
+	z-index: -1;
 }
